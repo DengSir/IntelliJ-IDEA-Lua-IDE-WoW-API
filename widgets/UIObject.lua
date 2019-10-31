@@ -1,10 +1,10 @@
 --- UIObject
---- 
+---
 --- UIObject is an abstract UI object type that is used to group together methods that are common to all user interface types. All of the various user interface elements in World of Warcraft are derived from UIObject.
---- 
+---
 --- @See http://wowprogramming.com/docs/widgets/UIObject
 
----@class UIObject
+---@class UIObject: ScriptObject
 UIObject = {};
 
 
